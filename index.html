@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es"> <!--Este es un comentario.Atributo Language-->
+<head> <!--Contiene metadatos que no son visibles en el sitio, pero son importantes-->
+   
+    <meta charset="UTF-8"> <!--Especifica la codificacion de caracteres del documento-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Se utiliza para el responsive, pero no significa que con esto el sitio ya sea responsivo-->
+    <title>Los pugs</title>
+    <link rel="stylesheet" href="style.css">
+     <style>
+        span{ 
+            color: navy;
+        }
+     </style>
+</head>
+<body>
+    <h1 style=" color:rgb(22, 22, 101)"> Lo maravilloso que son los <em>pugs</em></h1>
+    <p> Aquí puedes encontrar información relevante de los pugs</p>
+    <hr/>
+    
+    <p> Soy Araceli Guzmán, la creadora de este blog. Este blog se realizó con el objetivo de prácticar la creación de sitios web con html. Espero que lo disfruten.</p>
+    <hr/>
+    <h2> Un poco de historia</h2>
+    <p>Los pugs son una raza de perro con una historia larga y fascinante que se remonta a la antigua China. Se cree que su origen data de hace más de 2,000 años, donde eran conocidos como "lo-sze" o "perros de los emperadores". Estos perros pequeños y compactos eran muy valorados por la nobleza china y vivían en palacios, siendo considerados símbolos de prestigio. Los pugs fueron exportados a Europa en el siglo XVI, donde rápidamente ganaron popularidad entre la aristocracia, especialmente en los Países Bajos y más tarde en Inglaterra. En el Reino Unido, los pugs fueron adoptados por figuras de la realeza, como la reina Victoria, quien tuvo varios ejemplares de la raza. A lo largo de los siglos, los pugs han sido conocidos por su temperamento amigable, su apariencia distintiva con una cara arrugada y su pequeña estatura. En la actualidad, siguen siendo una raza muy popular como mascota debido a su naturaleza afectuosa y su adaptabilidad a la vida en el hogar.</p>
+        <p class="verso"><strong id="oda">Oda a los pugs</strong> <br>
+        <em>Desde China antigua hasta tierras lejanas,</em> <br>
+         <em>tu espíritu ha cruzado muchas ventanas,</em><br><!-- Elemento en bloque que ocupa todo el ancho disponible -->
+        <span><em>y en cada hogar, en cada rincón,</em> </span><br>
+        <span><em>brillas como estrella, amor y razón.
+            
+        </em></span><br><em> Oh, pug, que en tu ser no hay temor,</em>
+
+       </span><br><!-- Elemento en línea que solo ocupa el espacio necesario para existir -->
+        <span><em>solo cariño, alegría y fulgor,<br>
+            que tu nombre resuene en el viento,</span><br/>
+        <span> pug, eterno pug, tesoro y encantamiento.</em></span><br/>
+
+    </p>
+
+        <!-- Span es un contenedor genérico en línea. -->
+         <div class="verso"><em>Pequeño guerrero de corazón tierno,<br>
+            en tu cuerpo redondo arde el invierno <br>
+            y la primavera florece en tu andar,<br>
+            pug, glorioso pug, de noble lugar.</em> </div><!-- Contenedor genérico en bloque, usado para dividir o agrupar en secciones -->
+
+    <h3> Algunas características de los pugs</h3>
+    <!-- Lista desordenada -->
+     <ul ><!-- Necesita de los list items -->
+        <li> Tamaño pequeño</li>
+        <li> Cabeza redonda y grande</li>
+        <li> Rostro arrugado</li>
+        <li> Pelaje corto y denso. Puede variar en color, los más comunes son</li>
+            <ol class="pugscarac"><!--Lista ordenada -->
+                <li> Negros</li>
+                <li> Beige</li>
+                    <ul>
+                        <li>Beige claro</li>
+                        <li>Beige oscuro</li>
+                        <li>Beige plateado</li>
+                    </ul>
+                <li> Albaricoque</li>
+            </ol>
+        <li> Nariz chata</li>
+        <li> Ojos grandes y redondos</li>
+     </ul>
+
+     <p><strong>Sugerencia de nombres para pugs</strong> </p>
+     <dl> <!-- description list -->
+        <dt> <em> Mochila</em></dt><!-- Término a definir -->
+        <dd> significa pequeña</dd>
+        <dt><em>Lola</em></dt>
+        <dd> Un nombre juguetón y cariñoso, a menudo asociado con la diversión y la vivacidad.</dd>
+        <dt><em>Luna</em></dt>
+        <dd>Significa luna en español, ideal para un perro con una personalidad tranquila y misteriosa.</dd>
+     </dl>
+    <h4> Anatomía del pug</h4>
+    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ccf17943-fe08-40b3-a445-b07604ef447d/daa0eop-aa360975-72a1-4f4f-8a21-345e7c3d2867.png/v1/fill/w_1024,h_887,q_75,strp/anatomy_of_a_pug_by_snazzydoodle-daa0eop.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9jY2YxNzk0My1mZTA4LTQwYjMtYTQ0NS1iMDc2MDRlZjQ0N2QvZGFhMGVvcC1hYTM2MDk3NS03MmExLTRmNGYtOGEyMS0zNDVlN2MzZDI4NjcucG5nIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTg4NyJ9XV19.vv4YtOxiG90tnfeDiiAhiRhLFHERISIV2rcPqVknrSo" alt="Anatomía del pug" width="500" height="300">
+    <h5> Imagenes de pugs</h5>
+   
+     <img src="https://th.bing.com/th/id/R.1568b9ff54152965b99512f131043a9e?rik=2c3zh2l2wwvppA&pid=ImgRaw&r=0" alt="Perro raza pug" width="500" height="300"><!-- alt es la descripción de la imagen -->
+     <h6> Los pugs son una cosa bella, por eso les traigo un 5 top de videos tiernos de pugs</h6>
+     <ol>
+        <li> <iframe src="https://youtu.be/ckiKdk4TwR4?si=gXlwDLhbkHrOF0Fr" width="560" height="315"></iframe>
+        </li>
+        
+        <li><a href="https://youtube.com/shorts/PqLgYqUKeos?si=9_DX1zE31X4hcub7">https://youtube.com/shorts/PqLgYqUKeos?si=9_DX1zE31X4hcub7</a></li>
+        <li><a href="https://youtube.com/shorts/lbon0GxQcUk?si=5fZ5jkq-nBg1OCvw">https://youtube.com/shorts/PqLgYqUKeos?si=9_DX1zE31X4hcub7</a></li>
+        <li><a href="https://youtube.com/shorts/V5-SRm6i7JY?si=WqdZD2jKTUYbUCZ7">https://youtube.com/shorts/PqLgYqUKeos?si=9_DX1zE31X4hcub7</a></li>
+        <li><a href="https://youtube.com/shorts/IwD1PYuiCf4?si=2WTum87PLxNYg7t4">https://youtube.com/shorts/PqLgYqUKeos?si=9_DX1zE31X4hcub7</a></li>
+     </ol>
+  
+</body>
+</html>
